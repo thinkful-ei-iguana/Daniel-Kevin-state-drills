@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Bomb from './state-drills/Bomb';
+import RouletteGun from './state/RouletteGun';
 
 function App() {
   return (
     <main className='App'>
-      <Bomb />
+      <RouletteGun />
     </main>
   )
 }

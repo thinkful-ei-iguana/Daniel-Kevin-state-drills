@@ -1,20 +1,26 @@
 import React from 'react';
 import './App.css';
-import Tabs from './state/tabs.js'
+import Accordion from './state-drills/Accordion.js'
 
-const tabsProp = [
-  {name: 'First tab',
-  content: 'placeholder'},
-  {name: 'Second tab',
-  content: 'more placeholder'},
-  {name: 'Third tab',
-  content: 'even more placeholder'}
-];
+const sections = [
+  {
+    title: 'Section 1',
+    content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  },
+  {
+    title: 'Section 2',
+    content: 'Cupiditate tenetur aliquam necessitatibus id distinctio quas nihil ipsam nisi modi!',
+  },
+  {
+    title: 'Section 3',
+    content: 'Animi amet cumque sint cupiditate officia ab voluptatibus libero optio et?',
+  },
+]
 
 function App() {
   return (
     <main className='App'>
-      <Tabs tabs={tabsProp} />
+      <Accordion sections={sections} />
     </main>
   )
 }

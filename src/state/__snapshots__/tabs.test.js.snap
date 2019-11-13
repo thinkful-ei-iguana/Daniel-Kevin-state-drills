@@ -2,6 +2,19 @@
 
 exports[`Tabs Component renders the first tab by default 1`] = `
 <div>
-  0
+  <button>
+    First tab
+  </button>
+  <button>
+    Second tab
+  </button>
+  <button>
+    Third tab
+  </button>
+  <div
+    className="content"
+  >
+    placeholder
+  </div>
 </div>
 `;
